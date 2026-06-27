@@ -22,6 +22,7 @@ import Controls from './Controls.js'
 import Sounds from './Sounds.js'
 import gsap from 'gsap'
 import EasterEggs from './EasterEggs.js'
+import JungleSection from './Sections/JungleSection.js'
 
 export default class World
 {
@@ -493,6 +494,14 @@ export default class World
             // y: - 4
         })
         this.container.add(this.sections.playground.container)
+
+        // Jungle
+        this.sections.jungle = new JungleSection({
+            ...options,
+            x: 0,
+            y: 0
+        })
+        this.container.add(this.sections.jungle.container)
     }
 
     setEasterEggs()

@@ -87,7 +87,7 @@ export default class Application
             powerPreference: 'high-performance'
         })
         // this.renderer.setClearColor(0x414141, 1)
-        this.renderer.setClearColor(0x000000, 1)
+        this.renderer.setClearColor(0x0f1f10, 1)
         // this.renderer.setPixelRatio(Math.min(Math.max(window.devicePixelRatio, 1.5), 2))
         this.renderer.setPixelRatio(2)
         this.renderer.setSize(this.sizes.viewport.width, this.sizes.viewport.height)
@@ -272,11 +272,7 @@ export default class Application
      */
     setThreejsJourney()
     {
-        this.threejsJourney = new ThreejsJourney({
-            config: this.config,
-            time: this.time,
-            world: this.world
-        })
+        // Removed ThreejsJourney popup
     }
 
     /**

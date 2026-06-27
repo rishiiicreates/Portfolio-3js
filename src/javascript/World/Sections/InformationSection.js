@@ -89,19 +89,27 @@ export default class InformationSection
         // Options
         this.links.options = [
             {
-                href: 'https://twitter.com/bruno_simon/',
+                href: 'https://twitter.com/rishiiicreates/',
                 labelTexture: this.resources.items.informationContactTwitterLabelTexture
             },
             {
-                href: 'https://github.com/brunosimon/',
+                href: 'https://github.com/rishiiicreates/',
                 labelTexture: this.resources.items.informationContactGithubLabelTexture
             },
             {
-                href: 'https://www.linkedin.com/in/simonbruno77/',
+                href: 'https://www.linkedin.com/in/rishiicreates/',
                 labelTexture: this.resources.items.informationContactLinkedinLabelTexture
             },
             {
-                href: 'mailto:simon.bruno.77@gmail.com',
+                href: 'mailto:rishiicreates@gmail.com',
+                labelTexture: this.resources.items.informationContactMailLabelTexture
+            },
+            {
+                href: 'https://youtube.com/@rishiiicreates',
+                labelTexture: this.resources.items.informationContactYoutubeLabelTexture
+            },
+            {
+                href: '/Hrishikesh_Yadav_Resume.pdf',
                 labelTexture: this.resources.items.informationContactMailLabelTexture
             }
         ]

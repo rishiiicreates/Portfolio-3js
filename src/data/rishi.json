@@ -1,0 +1,63 @@
+{
+  "name": "Rishi",
+  "handle": "rishiiicreates",
+  "title": "AI Product Engineer",
+  "bio": "The guy who teaches machines to think, designs systems that speak, and turns raw data into digital sorcery. I build for reactions rather than screens. Whether it's an interface or a machine learning model, I craft with intention—where every detail has a role, and every line of code tells the system something new.",
+  "links": {
+    "github": "https://github.com/rishiiicreates",
+    "youtube": "TODO",
+    "linkedin": "TODO",
+    "twitter": "TODO",
+    "email": "rishiicreates@gmail.com"
+  },
+  "projects": [
+    {
+      "name": "DashMetrics",
+      "slug": "dashmetrics",
+      "description": "A minimal and intuitive SaaS platform designed to centralize and simplify social media analytics.",
+      "tech": ["React", "Next.js", "TypeScript", "Tailwind CSS"],
+      "github": "https://github.com/rishiiicreates/DashMetrics-final-.git",
+      "live": ""
+    },
+    {
+      "name": "NFT Marketplace",
+      "slug": "nft-marketplace",
+      "description": "A decentralized marketplace for digital artists to mint, sell, and trade NFTs with Web 3.0 integration.",
+      "tech": ["React", "Solidity", "Ethereum", "Web3.js"],
+      "github": "https://github.com/rishiiicreates",
+      "live": ""
+    },
+    {
+      "name": "Nudge: Local Market App",
+      "slug": "nudge",
+      "description": "A walkthrough marketplace app for local vendors and businesses.",
+      "tech": ["React Native", "Firebase", "Google Maps API", "Redux"],
+      "github": "https://github.com/rishiiicreates",
+      "live": ""
+    },
+    {
+      "name": "Housel: AI Reminder App",
+      "slug": "housel",
+      "description": "An intelligent reminder application that learns user's daily routines.",
+      "tech": ["React", "TypeScript", "Machine Learning", "Node.js", "MongoDB", "OpenAI API"],
+      "github": "https://github.com/rishiiicreates",
+      "live": ""
+    },
+    {
+      "name": "AI Content Generator",
+      "slug": "ai-content-generator",
+      "description": "An application leveraging AI to help creators generate unique content for blogs, social media, and marketing.",
+      "tech": ["Next.js", "OpenAI API", "TypeScript", "Node.js"],
+      "github": "https://github.com/rishiiicreates",
+      "live": ""
+    },
+    {
+      "name": "DeFi Dashboard App",
+      "slug": "defi-dashboard",
+      "description": "A mobile app that tracks crypto portfolios, DeFi investments, and provides real-time market analysis.",
+      "tech": ["React Native", "Web3", "Firebase", "Chart.js"],
+      "github": "https://github.com/rishiiicreates",
+      "live": ""
+    }
+  ]
+}

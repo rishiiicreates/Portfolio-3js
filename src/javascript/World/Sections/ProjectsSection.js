@@ -71,320 +71,101 @@ export default class ProjectsSection
     {
         this.list = [
             {
-                name: 'Three.js Journey',
+                name: 'DashMetrics',
                 imageSources:
                 [
-                    './models/projects/threejsJourney/slideA.webp',
-                    './models/projects/threejsJourney/slideB.webp',
-                    './models/projects/threejsJourney/slideC.webp',
-                    './models/projects/threejsJourney/slideD.webp'
+                    './models/projects/dashmetrics/slideA.png'
                 ],
                 floorTexture: this.resources.items.projectsThreejsJourneyFloorTexture,
                 link:
                 {
-                    href: 'https://threejs-journey.com?c=p3',
+                    href: 'https://github.com/rishiiicreates/DashMetrics-final-.git',
                     x: - 4.8,
                     y: - 3,
-                    halfExtents:
-                    {
-                        x: 3.2,
-                        y: 1.5
-                    }
+                    halfExtents: { x: 3.2, y: 1.5 }
                 },
-                distinctions:
-                [
-                    { type: 'fwa', x: 3.95, y: 4.15 }
-                ]
+                distinctions: []
             },
             {
-                name: 'Chartogne Taillet',
+                name: 'NFT Marketplace',
                 imageSources:
                 [
-                    './models/projects/chartogne/slideA.jpg',
-                    './models/projects/chartogne/slideB.jpg',
-                    './models/projects/chartogne/slideC.jpg'
+                    './models/projects/nftmarketplace/slideA.jpg'
                 ],
-                floorTexture: this.resources.items.projectsChartogneFloorTexture,
+                floorTexture: this.resources.items.projectsThreejsJourneyFloorTexture,
                 link:
                 {
-                    href: 'https://chartogne-taillet.com',
-                    x: - 4.8,
-                    y: - 3.3,
-                    halfExtents:
-                    {
-                        x: 3.2,
-                        y: 1.5
-                    }
-                },
-                distinctions:
-                [
-                    { type: 'awwwards', x: 3.95, y: 4.15 },
-                    { type: 'fwa', x: 5.6, y: 4.15 },
-                    { type: 'cssda', x: 7.2, y: 4.15 }
-                ]
-            },
-            {
-                name: 'Bonhomme | 10 ans',
-                imageSources:
-                [
-                    './models/projects/bonhomme10ans/slideA.webp',
-                    './models/projects/bonhomme10ans/slideB.webp',
-                    './models/projects/bonhomme10ans/slideC.webp',
-                    './models/projects/bonhomme10ans/slideD.webp'
-                ],
-                floorTexture: this.resources.items.projectsBonhomme10ansFloorTexture,
-                link:
-                {
-                    href: 'https://anniversary.bonhommeparis.com/',
-                    x: - 4.8,
-                    y: - 2,
-                    halfExtents:
-                    {
-                        x: 3.2,
-                        y: 1.5
-                    }
-                },
-                distinctions:
-                [
-                    { type: 'awwwards', x: 3.95, y: 4.15 },
-                    { type: 'fwa', x: 5.6, y: 4.15 },
-                ]
-            },
-            {
-                name: 'Luni.app',
-                imageSources:
-                [
-                    './models/projects/luni/slideA.webp',
-                    './models/projects/luni/slideB.webp',
-                    './models/projects/luni/slideC.webp',
-                    './models/projects/luni/slideD.webp'
-                ],
-                floorTexture: this.resources.items.projectsLuniFloorTexture,
-                link:
-                {
-                    href: 'https://luni.app',
+                    href: 'https://github.com/rishiiicreates',
                     x: - 4.8,
                     y: - 3,
-                    halfExtents:
-                    {
-                        x: 3.2,
-                        y: 1.5
-                    }
+                    halfExtents: { x: 3.2, y: 1.5 }
                 },
-                distinctions:
-                [
-                    { type: 'awwwards', x: 3.95, y: 4.15 },
-                    { type: 'fwa', x: 5.6, y: 4.15 },
-                ]
+                distinctions: []
             },
             {
-                name: 'Madbox',
+                name: 'Nudge (Local Market)',
                 imageSources:
                 [
-                    './models/projects/madbox/slideA.jpg',
-                    './models/projects/madbox/slideB.jpg',
-                    './models/projects/madbox/slideC.jpg'
+                    './models/projects/nudge/slideA.webp'
                 ],
-                floorTexture: this.resources.items.projectsMadboxFloorTexture,
+                floorTexture: this.resources.items.projectsThreejsJourneyFloorTexture,
                 link:
                 {
-                    href: 'https://madbox.io',
-                    x: - 4.8,
-                    y: - 4,
-                    halfExtents:
-                    {
-                        x: 3.2,
-                        y: 1.5
-                    }
-                },
-                distinctions:
-                [
-                    { type: 'awwwards', x: 3.95, y: 4.15 },
-                    { type: 'fwa', x: 5.6, y: 4.15 }
-                ]
-            },
-            {
-                name: 'Scout',
-                imageSources:
-                [
-                    './models/projects/scout/slideA.jpg',
-                    './models/projects/scout/slideB.jpg',
-                    './models/projects/scout/slideC.jpg'
-                ],
-                floorTexture: this.resources.items.projectsScoutFloorTexture,
-                link:
-                {
-                    href: 'https://fromscout.com',
-                    x: - 4.8,
-                    y: - 2,
-                    halfExtents:
-                    {
-                        x: 3.2,
-                        y: 1.5
-                    }
-                },
-                distinctions:
-                [
-                ]
-            },
-            // {
-            //     name: 'Zenly',
-            //     imageSources:
-            //     [
-            //         './models/projects/zenly/slideA.jpg',
-            //         './models/projects/zenly/slideB.jpg',
-            //         './models/projects/zenly/slideC.jpg'
-            //     ],
-            //     floorTexture: this.resources.items.projectsZenlyFloorTexture,
-            //     link:
-            //     {
-            //         href: 'https://zen.ly',
-            //         x: - 4.8,
-            //         y: - 4.2,
-            //         halfExtents:
-            //         {
-            //             x: 3.2,
-            //             y: 1.5
-            //         }
-            //     },
-            //     distinctions:
-            //     [
-            //         { type: 'awwwards', x: 3.95, y: 4.15 },
-            //         { type: 'fwa', x: 5.6, y: 4.15 },
-            //         { type: 'cssda', x: 7.2, y: 4.15 }
-            //     ]
-            // },
-            {
-                name: 'priorHoldings',
-                imageSources:
-                [
-                    './models/projects/priorHoldings/slideA.jpg',
-                    './models/projects/priorHoldings/slideB.jpg',
-                    './models/projects/priorHoldings/slideC.jpg'
-                ],
-                floorTexture: this.resources.items.projectsPriorHoldingsFloorTexture,
-                link:
-                {
-                    href: 'https://prior.co.jp/discover/',
+                    href: 'https://github.com/rishiiicreates',
                     x: - 4.8,
                     y: - 3,
-                    halfExtents:
-                    {
-                        x: 3.2,
-                        y: 1.5
-                    }
+                    halfExtents: { x: 3.2, y: 1.5 }
                 },
-                distinctions:
-                [
-                    { type: 'awwwards', x: 3.95, y: 4.15 },
-                    { type: 'fwa', x: 5.6, y: 4.15 },
-                    { type: 'cssda', x: 7.2, y: 4.15 }
-                ]
+                distinctions: []
             },
             {
-                name: 'orano',
+                name: 'Housel (AI Reminder)',
                 imageSources:
                 [
-                    './models/projects/orano/slideA.jpg',
-                    './models/projects/orano/slideB.jpg',
-                    './models/projects/orano/slideC.jpg'
+                    './models/projects/housel/slideA.jpg'
                 ],
-                floorTexture: this.resources.items.projectsOranoFloorTexture,
+                floorTexture: this.resources.items.projectsThreejsJourneyFloorTexture,
                 link:
                 {
-                    href: 'https://orano.imm-g-prod.com/experience/innovation/en',
+                    href: 'https://github.com/rishiiicreates',
                     x: - 4.8,
-                    y: - 3.4,
-                    halfExtents:
-                    {
-                        x: 3.2,
-                        y: 1.5
-                    }
+                    y: - 3,
+                    halfExtents: { x: 3.2, y: 1.5 }
                 },
-                distinctions:
-                [
-                    { type: 'awwwards', x: 3.95, y: 4.15 },
-                    { type: 'fwa', x: 5.6, y: 4.15 },
-                    { type: 'cssda', x: 7.2, y: 4.15 }
-                ]
+                distinctions: []
             },
             {
-                name: 'citrixRedbull',
+                name: 'AI Content Gen',
                 imageSources:
                 [
-                    './models/projects/citrixRedbull/slideA.jpg',
-                    './models/projects/citrixRedbull/slideB.jpg',
-                    './models/projects/citrixRedbull/slideC.jpg'
+                    './models/projects/aicontent/slideA.jpg'
                 ],
-                floorTexture: this.resources.items.projectsCitrixRedbullFloorTexture,
+                floorTexture: this.resources.items.projectsThreejsJourneyFloorTexture,
                 link:
                 {
-                    href: 'https://thenewmobileworkforce.imm-g-prod.com/',
+                    href: 'https://github.com/rishiiicreates',
                     x: - 4.8,
-                    y: - 4.4,
-                    halfExtents:
-                    {
-                        x: 3.2,
-                        y: 1.5
-                    }
+                    y: - 3,
+                    halfExtents: { x: 3.2, y: 1.5 }
                 },
-                distinctions:
-                [
-                    { type: 'awwwards', x: 3.95, y: 4.15 },
-                    { type: 'fwa', x: 5.6, y: 4.15 },
-                    { type: 'cssda', x: 7.2, y: 4.15 }
-                ]
+                distinctions: []
             },
-            // {
-            //     name: 'gleecChat',
-            //     imageSources:
-            //     [
-            //         './models/projects/gleecChat/slideA.jpg',
-            //         './models/projects/gleecChat/slideB.jpg',
-            //         './models/projects/gleecChat/slideC.jpg',
-            //         './models/projects/gleecChat/slideD.jpg'
-            //     ],
-            //     floorTexture: this.resources.items.projectsGleecChatFloorTexture,
-            //     link:
-            //     {
-            //         href: 'http://gleec.imm-g-prod.com',
-            //         x: - 4.8,
-            //         y: - 3.4,
-            //         halfExtents:
-            //         {
-            //             x: 3.2,
-            //             y: 1.5
-            //         }
-            //     },
-            //     distinctions:
-            //     [
-            //         { type: 'awwwards', x: 3.95, y: 4.15 },
-            //         { type: 'fwa', x: 5.6, y: 4.15 },
-            //         { type: 'cssda', x: 7.2, y: 4.15 }
-            //     ]
-            // },
-            // {
-            //     name: 'keppler',
-            //     imageSources:
-            //     [
-            //         './models/projects/keppler/slideA.jpg',
-            //         './models/projects/keppler/slideB.jpg',
-            //         './models/projects/keppler/slideC.jpg'
-            //     ],
-            //     floorTexture: this.resources.items.projectsKepplerFloorTexture,
-            //     link:
-            //     {
-            //         href: 'https://brunosimon.github.io/keppler/',
-            //         x: 2.75,
-            //         y: - 1.1,
-            //         halfExtents:
-            //         {
-            //             x: 3.2,
-            //             y: 1.5
-            //         }
-            //     },
-            //     distinctions: []
-            // }
+            {
+                name: 'DeFi Dashboard',
+                imageSources:
+                [
+                    './models/projects/defidashboard/slideA.jpg'
+                ],
+                floorTexture: this.resources.items.projectsThreejsJourneyFloorTexture,
+                link:
+                {
+                    href: 'https://github.com/rishiiicreates',
+                    x: - 4.8,
+                    y: - 3,
+                    halfExtents: { x: 3.2, y: 1.5 }
+                },
+                distinctions: []
+            }
         ]
     }
 

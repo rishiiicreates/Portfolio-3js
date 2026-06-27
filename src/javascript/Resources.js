@@ -19,7 +19,7 @@ export default class Resources extends EventEmitter
             { name: 'matcapOrange', source: './models/matcaps/orange.png', type: 'texture' },
             { name: 'matcapRed', source: './models/matcaps/red.png', type: 'texture' },
             { name: 'matcapWhite', source: './models/matcaps/white.png', type: 'texture' },
-            { name: 'matcapGreen', source: './models/matcaps/green.png', type: 'texture' },
+            { name: 'matcapGreen', source: './models/matcaps/emeraldGreen.png', type: 'texture' },
             { name: 'matcapBrown', source: './models/matcaps/brown.png', type: 'texture' },
             { name: 'matcapGray', source: './models/matcaps/gray.png', type: 'texture' },
             { name: 'matcapEmeraldGreen', source: './models/matcaps/emeraldGreen.png', type: 'texture' },
@@ -65,6 +65,9 @@ export default class Resources extends EventEmitter
 
             { name: 'introMBase', source: './models/intro/m/base.glb' },
             { name: 'introMCollision', source: './models/intro/m/collision.glb' },
+
+            { name: 'introHBase', source: './models/intro/h/base.glb' },
+            { name: 'introHCollision', source: './models/intro/h/collision.glb' },
 
             { name: 'introCreativeBase', source: './models/intro/creative/base.glb' },
             { name: 'introCreativeCollision', source: './models/intro/creative/collision.glb' },
@@ -131,6 +134,7 @@ export default class Resources extends EventEmitter
             { name: 'informationContactGithubLabel', source: './models/information/static/contactGithubLabel.png', type: 'texture' },
             { name: 'informationContactLinkedinLabel', source: './models/information/static/contactLinkedinLabel.png', type: 'texture' },
             { name: 'informationContactMailLabel', source: './models/information/static/contactMailLabel.png', type: 'texture' },
+            { name: 'informationContactYoutubeLabel', source: './models/information/static/contactYoutubeLabel.png', type: 'texture' },
 
             { name: 'informationActivities', source: './models/information/static/activities.png', type: 'texture' },
 
